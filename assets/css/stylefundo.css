@@ -1,0 +1,52 @@
+html{
+  height:  100%;
+}
+
+body{
+  background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(58, 206, 13);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+
+.night{
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.back2{
+    height: 100%;
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2013/02/22/43213/769e78ebfb0d3753e7a1a42df3aab9d8-1000.jpg');
+    color: #e62786;
+}
+
+.back3{
+    height: 100%;
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2012/11/26/22658/d6c9014012026345627093b686ab0089-1000.jpg');
+    color: #00ffff;
+}
+
+div{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.grupo button{
+    border: 0.1rem solid #000000;
+    background: none;
+    margin: 5px;
+    color: #00ccff;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.grupo button:hover{
+    background: #ffffff;
+    color: #0a1128;
+}
